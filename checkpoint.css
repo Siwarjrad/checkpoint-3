@@ -1,0 +1,75 @@
+.logo-nav {
+    width: 268px;
+    height: 33px;
+    margin: 100px;
+}
+.grid{display: grid;
+grid-template-columns: 50% 50%;}
+.first{background-color: rgb(255, 255, 255);
+padding: 2em; font-size: 15pt;
+margin: .8em 0;
+    line-height: 1.75;
+    font-weight: 400;;}
+.second{background-color: rgb(255, 255, 255);padding: 2em;
+font-size: 15pt;margin: .8em 0;
+line-height: 1.75;
+font-weight: 400;}
+nav {
+    background-color:transparent;position: sticky;
+    top: 0;
+    border: 2px transparent
+    
+  }
+  
+li{
+    float: right;
+
+ }
+ li a {
+    display: block;
+    padding: 8px;
+    background-color: transparent; font-size: 15pt;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;}
+.articles{display: flex;
+align-items: center; justify-content: space-evenly;
+margin: 100px;}
+.article_0{background-color: rgb(105, 214, 172); width: 9cm;
+    border: solid whitesmoke;
+    height: 8cm;border-radius: 8%;
+}
+.article_0 h2{color: honeydew;font-size: 15pt;
+    text-align: justify;margin: 8%;}
+    .article_0 h1{margin: 8%;
+    text-align: justify;
+font-size: 20pt;}
+.article_2{background-color: rgb(23, 95, 161);
+    width: 9cm;
+    border: solid whitesmoke;
+    height: 8cm;border-radius: 8%;}
+.article_2 h2{color: honeydew;
+    font-size: 15pt;
+    text-align: justify;margin: 8%;}
+    .article_2 h1{margin: 8%;
+        text-align: justify;
+    font-size: 20pt;}
+.article_3{background-color: rgb(167, 167, 167);
+    width: 9cm;
+    border: solid whitesmoke;
+    height: 8cm; border-style: ridge;border-radius: 8%;}
+.article_3 h2{color: honeydew;
+    font-size: 15pt;text-align: justify;word-spacing: 5px;
+    margin: 8%;
+}
+.article_3 h1{margin: 8%;
+    text-align: justify;
+font-size: 20pt;}
+.article_0 img{padding: 5%;}
+.article_2 img{padding: 5%;}
+.article_3 img{padding: 5%;}
+
+    
